@@ -1,0 +1,222 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>
+        Portfolio
+    </title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<div class="container">
+
+    <body>
+        <div class="navbar">
+            <a class="" href="index.html"><i class="fas fa-home"></i> Home</a>
+            <a href="resume.html"><i class="fas fa-user" style="padding-right: 5px;"></i>Resume</a>
+            <a href="portofolio.html" class="active"><i class="fas fa-briefcase" style="padding-right: 5px;"></i>
+                Portfolio</a>
+            <a href="contact.html"> <i class="fas fa-address-book" style="padding-right: 5px;"></i>Contact</a>
+        </div>
+
+        <div class="sidebar">
+            <img alt="Profile picture of Fazar Maulana" height="300" src="assets/images/zarmaull.png" width="300" />
+            <h2>Fazar Maulana</h2>
+            <p class="freelancer">Freelancer</p>
+            <div class="divider"></div>
+            <div class="contact-info">
+                <div><i class="fas fa-envelope"></i> zamroull17@gmail.com</div>
+                <div><i class="fas fa-phone"></i> +62 818 673 1868</div>
+                <div><i class="fas fa-calendar"></i> Maret, 31 2004</div>
+                <div><i class="fas fa-map-marker-alt"></i> BSD, Serpong Utara, Tangerang Selatan</div>
+            </div>
+            
+            <div class="sitemap">
+                <h3>Sitemap</h3>
+                <ul>
+                  <li><a href="#home" >Home</a></li>
+                  <li><a href="resume.html" >Resume</a></li>
+                  <li><a href="portofolio.html" class="active"> <i class="fas fa-check"></i> Portofolio</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            
+            <div class="social-icons">
+                <i class="fab fa-whatsapp fa-lg" style="color: #63E6BE;"></i>
+                <i class="fab fa-instagram fa-lg" style="color: #ed0c50;"></i>
+                <i class="fab fa-github"></i>
+            </div>
+        </div>
+        
+
+        <div id="custom-modal" class="modal">
+            <div class="modal-content">
+                <span class="close-btn">&times;</span>
+                <h2 id="modal-title">Certificate</h2>
+                <img id="modal-image" alt="Certificate" />
+                <p id="modal-description"></p>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <h1>
+                Sertifikat
+            </h1>
+            <div class="tabs">
+                <div class="tab-button active" data-tab="all">All</div>
+                <div class="tab-button" data-tab="network-engineer">Network Engineer</div>
+                <div class="tab-button" data-tab="web-development">Web Development</div>
+                <div class="tab-button" data-tab="linux-pentest">Linux &amp; Pentest</div>
+            </div>
+
+            <div class="certificates">
+                <div class="tab-content active" id="all">
+                    <div class="certificate">
+                        <img alt="Sertifikat BNSP Junior Network Engineer" height="200"
+                            src="https://zarmaull31.github.io/portfolio/assets/images/SERTIF.jpg" width="300"
+                            class="cert-image">
+                        <h3>Sertifikat BNSP</h3>
+                        <p>Junior Network Engineer</p>
+                    </div>
+                    <div class="certificate">
+                        <img alt="Sertifikat Responsive Web" height="200"
+                            src="https://zarmaull31.github.io/portfolio/assets/images/responsiveweb.jpg" width="300"
+                            class="cert-image" />
+                        <h3>Sertifikat Responsive Web</h3>
+                        <p>Web Development</p>
+                    </div>
+                    <div class="certificate">
+                        <img alt="Sertifikat CSS Codepolitan" height="200"
+                            src="https://zarmaull31.github.io/portfolio/assets/images/css.png" width="300"
+                            class="cert-image" />
+                        <h3>Sertifikat CSS Codepolitan</h3>
+                        <p>Web Development</p>
+                    </div>
+                    <div class="certificate">
+                        <img alt="Bootcamp Ethnical Hacking" height="200"
+                            src="https://zarmaull31.github.io/portfolio/assets/images/hackerroom.png" width="300"
+                            class="cert-image" />
+                        <h3>Bootcamp Ethnical Hacking</h3>
+                        <p>Linux &amp; Pentester</p>
+                    </div>
+                    <div class="certificate">
+                        <img alt="Bootcamp Dart Programing untuk Android Developer" height="200"
+                            src="https://zarmaull31.github.io/portfolio/assets/images/dart.png" width="300"
+                            class="cert-image" />
+                        <h3>Bootcamp Dart Programing</h3>
+                        <p>Dart For &amp; Android Developer</p>
+                    </div>
+                </div>
+
+                <div class="tab-content" id="network-engineer">
+                    <div class="certificate">
+                        <img alt="Sertifikat BNSP Junior Network Engineer" height="200"
+                            src="https://storage.googleapis.com/a1aa/image/LSRCd3SQYxp8GJpZNhZNUM8zCVeP5tf5sgoqiwsyO8P5k64TA.jpg"
+                            width="300" class="cert-image" />
+                        <h3>Sertifikat BNSP</h3>
+                        <p>Junior Network Engineer</p>
+                    </div>
+                </div>
+
+                <div class="tab-content" id="web-development">
+                    <div class="certificate">
+                        <img alt="Sertifikat Responsive Web" height="200"
+                            src="https://storage.googleapis.com/a1aa/image/7FfrPMuqNOTgAqcVValLL0m4D3mdlYnRefOmmEWktvytJ1xnA.jpg"
+                            width="300" class="cert-image" />
+                        <h3>Sertifikat Responsive Web</h3>
+                        <p>Web Development</p>
+                    </div>
+                    <div class="certificate">
+                        <img alt="Sertifikat CSS Codepolitan" height="200"
+                            src="https://storage.googleapis.com/a1aa/image/Zl5Yi2S9335feUQFvYcMXDfFXtDbCCuCl6aXwx9Xe6AqTqjPB.jpg"
+                            width="300" class="cert-image" />
+                        <h3>Sertifikat CSS Codepolitan</h3>
+                        <p>Web Development</p>
+                    </div>
+                </div>
+
+                <div class="tab-content" id="linux-pentest">
+                    <div class="certificate">
+                        <img alt="Bootcamp Ethnical Hacking" height="200"
+                            src="https://storage.googleapis.com/a1aa/image/6UNMq7ZnaUYqMpR0thinygdDAFKhCwnPzJjUxo9QyH5NpOeJA.jpg"
+                            width="300" class="cert-image" />
+                        <h3>Bootcamp Ethnical Hacking</h3>
+                        <p>Linux &amp; Pentester</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal -->
+            <div id="image-modal" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="modal-image">
+                <div class="caption" id="modal-caption"></div>
+            </div>
+
+        </div>
+</div>
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        const modal = document.getElementById("custom-modal");
+        const modalImage = document.getElementById("modal-image");
+        const modalTitle = document.getElementById("modal-title");
+        const modalDescription = document.getElementById("modal-description");
+        const closeModal = document.querySelector(".close-btn");
+
+        const certificates = document.querySelectorAll(".certificate");
+        const tabs = document.querySelectorAll(".tab");
+
+        // Tabs filter functionality
+        tabs.forEach((tab) => {
+            tab.addEventListener("click", () => {
+                // hapus kelas aktif dari tabs
+                tabs.forEach((t) => t.classList.remove("active"));
+                // tambahkan kelas aktif di tab
+                tab.classList.add("active");
+
+                const category = tab.dataset.category;
+
+                // liat /sembunyika certificates 
+                certificates.forEach((cert) => {
+                    if (category === "all" || cert.dataset.category === category) {
+                        cert.style.display = "block";
+                    } else {
+                        cert.style.display = "none";
+                    }
+                });
+            });
+        });
+
+        // Modal fungsi
+        certificates.forEach((cert) => {
+            const img = cert.querySelector("img");
+
+            img.addEventListener("click", () => {
+                modalImage.src = img.src;
+                modalImage.alt = img.alt;
+                modalTitle.textContent = img.alt;
+                modalDescription.textContent = "Deskripsi: " + img.alt;
+                modal.style.display = "block";
+            });
+        });
+
+        // tutup modal
+        closeModal.addEventListener("click", () => {
+            modal.style.display = "none";
+        });
+
+        // Close modal when clicking outside content
+        window.addEventListener("click", (e) => {
+            if (e.target === modal) {
+                modal.style.display = "none";
+            }
+        });
+    });
+
+</script>
+</body>
+
+</html>
